@@ -1,0 +1,26 @@
+.title{
+    position: relative
+}
+
+.resize{
+    width: 100%;
+}
+
+.first-text{
+    position: absolute;
+    top: 15%;
+    color: white;
+    font-size: 4em;
+}
+
+.second-text{
+    position: absolute;
+    bottom: 5%;
+    color: white;
+    font-size: 2em;
+}
+
+.grid-3-columns{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
